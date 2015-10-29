@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Swiper demo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="swiper.min.css">
+    <link rel="stylesheet" href="http://wx-slc.izhida.cn/css/swiper3.08.min.css">
     <style>
         html, body {
             position: relative;
@@ -20,7 +20,7 @@
         }
         .swiper-container{
             width: 600px;
-            height: 400px;
+            height: 100%;
         }
         .swiper-container img{
             width: 600px;
@@ -68,12 +68,12 @@
             color:#fff;
             background: #007aff;
         }
-        h1{
+        h3{
             text-align:center;
         }
         .content .page{
             position:fixed;
-            padding-top:10px;
+            padding:10px;
             bottom:0;
             display:none;
             width:100%;
@@ -85,6 +85,7 @@
     </style>
 </head>
 <body>
+<div>
 <h3>斗气就是作死？看大货司机眼中的小轿车</h3>
 <div class="swiper-container">
     <div class="swiper-wrapper">
@@ -111,8 +112,8 @@
     <div class="page page3">老杨告诉记者，越是暴躁的驾龄越是短，就是说这些本身就是菜鸟的司机，自己开得不怎么样，但自视甚高，觉得人家都必须让着他。</div>
     <div class="page page4">让老杨印象比较深的是在高速公路上，总有些小轿车喜欢“别”或者加塞到大货车前，这其实很危险！你再坚硬的轿车都经不起大货车的碾压，到时候吃亏的还是自己。”</div>
 </div>
-<script src="jquery.js"></script>
-<script src="swiper.min.js"></script>
+<script src="http://wx-slc.izhida.cn/js/jquery.js"></script>
+<script src="http://wx-slc.izhida.cn/js/swiper3.0.8.min.js"></script>
 <script>
     $('.content .page').eq(0).show();
     var swiper = new Swiper('.swiper-container', {
